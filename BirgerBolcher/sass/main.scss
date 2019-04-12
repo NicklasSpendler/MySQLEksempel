@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+}
+header{
+	padding: 1em;
+	input{
+		width: 35%;
+	}
+}
+
+.produkt__template{
+	display: none;
+}
+
+.produkt{
+	padding: 0 1em;
+	display: flex;
+	justify-content: space-between;
+}
+
+.produkt:nth-child(even){
+	background-color: #7fe1de;
+}
+.highlight {
+	background-color: yellow;
+}
